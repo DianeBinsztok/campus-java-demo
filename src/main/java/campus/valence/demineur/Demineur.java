@@ -4,7 +4,7 @@ public class Demineur {
 
     public static Demineur create(int bombCount, int boardSize) {
         Case[][] board = new Case[boardSize][boardSize];
-        return null;
+        return new Demineur(board);
     }
 
     private Case[][] board;
